@@ -1,8 +1,40 @@
-torch
-torchvision
-transformers
-opencv-python
-gradio
-Pillow
-numpy
-scipy
+# Core Dependencies for 360° Panoramic Depth Estimation
+# Hugging Face Spaces Requirements
+
+# Gradio for the web interface
+gradio>=4.0.0
+
+# PyTorch ecosystem (CPU optimized for Spaces)
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Hugging Face ecosystem for Marigold model
+diffusers>=0.21.0
+transformers>=4.25.0
+accelerate>=0.20.0
+
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Image processing libraries
+opencv-python>=4.6.0
+Pillow>=9.0.0
+scikit-image>=0.19.0
+
+# Visualization (for depth map processing)
+matplotlib>=3.5.0
+
+# System monitoring and optimization
+psutil>=5.8.0
+
+# Additional utilities
+pathlib2>=2.3.0
+typing-extensions>=4.0.0
+
+# Memory optimization (optional but recommended)
+# xformers  # Uncomment if memory issues occur
+
+# Development and debugging (optional)
+# ipython>=7.0.0
+# jupyter>=1.0.0

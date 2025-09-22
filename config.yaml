@@ -1,0 +1,6 @@
+ensemble_size: 5
+denoising_steps: 50
+processing_resolution: [512, 512]
+num_projections: 20
+depth_image_format: "16-bit"
+output_depth_image_type: "black_and_white"

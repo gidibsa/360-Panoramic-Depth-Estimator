@@ -1,13 +1,77 @@
-
----
-
-# 📝 `.gitignore`
-
-```gitignore
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.DS_Store
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
 .env
-.cache/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (will be downloaded)
+models/
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+
+# Temporary files
+temp_processing/
+temp/
+*.tmp
+*.log
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hugging Face
+.huggingface/
+
+# Example images (add your own)
+examples/
+test_images/
+
+# Ignore 360monodepth reference folder
+360monodepth/
